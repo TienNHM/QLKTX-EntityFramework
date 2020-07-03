@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QLKTX.BS.BL_DangNhap" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>BS\BL_DangNhap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.BS.BS_layer" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAEIAAAAAAIBQAAAAAAAACAEAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>BS\BL_DichVu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.BS.EnumConst" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAEEAAAAAAAIAAAAAAECAACAAREAABAAAAAQAAg=</HashCode>
+      <FileName>BS\EnumConst.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.Item" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABBAAAAAiAAAAAABACAAAACAAABAECAAAAAAAICADA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.Program" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXEntities" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACgAAAgAAAAAAIgAAAEAAAAAAAABAAFAFAAJA=</HashCode>
+      <FileName>QLKTX_Model.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.DANGNHAP" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAABAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DANGNHAP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.DICHVU" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAIAAAAIAAAQAAAAAABAAAAAA=</HashCode>
+      <FileName>DICHVU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.DIENSV" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAEAIAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>DIENSV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.DS_PHONG_TRONG_Result" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAA=</HashCode>
+      <FileName>DS_PHONG_TRONG_Result.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.HOADON" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIEAAAAAIAAAAAAEAAIAACAAAAAAAAAAIAARAAAAAA=</HashCode>
+      <FileName>HOADON.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.LOAIPHONG" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAQAAAIAAAABAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LOAIPHONG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.LOP" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAACAAIAAAgCAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>LOP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.NGUOITHAN" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAAAQAAAAgAAEAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>NGUOITHAN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.NHANVIEN" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACACAgAAAQQAQIAAAEAAAAAAAAAAAAAAJAAAI=</HashCode>
+      <FileName>NHANVIEN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.PHIEUDK" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAAIAAAAAAAAAAIIgABAAAAEgAAAAJAAQAAAAAQ=</HashCode>
+      <FileName>PHIEUDK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.PHONG" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAIgAAAAAAAIAAAAIAAQABAAAA=</HashCode>
+      <FileName>PHONG.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.SDDV" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>SDDV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.SINHVIEN" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAAAAACgkgAAQAAQIAAAAAAAABAAAEBAAIABAAAI=</HashCode>
+      <FileName>SINHVIEN.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.sysdiagram" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAAAAAAAAAAAAAAAQAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sysdiagram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSet" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQYBEYAPA/hEKjpIpAKeyQ0AAAwGVxgEAAJIDAFwBBA=</HashCode>
+      <FileName>QUANLYKTXDataSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.Properties.Resources" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FQBJEBAgFJAAiPAPAEBJMgkYA4AGAEAA4SA0GpYH0IA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.DANGNHAPTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.DICHVUTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.DIENSVTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.HOADONTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.LOAIPHONGTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.LOPTableAdapter" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.NGUOITHANTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.NHANVIENTableAdapter" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.PHIEUDKTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.PHONGTableAdapter" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.SDDVTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.SINHVIENTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.Select_Para_ChiTietHoaDonTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.Select_Para_PDKTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.Select_2Para_ThongKeSDDV_KhuTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.Select_3Para_SDDV_PhongTableAdapter" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.Select_ThongKeDichVuTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.QUANLYKTXDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABACAAACBABEEBgEAAMBAgIAACgABQAAYEEIBtBAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmBaoCao" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AxFAFFAAADAGFBBAAUGQABoDAAMAAIAiAAAEERAAYAA=</HashCode>
+      <FileName>UI\FrmBaoCao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmDangKyPhong" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAIEIAAACAEBDQIAEOgAAoKCQAAAAgAAAAABQAAAFA=</HashCode>
+      <FileName>UI\FrmDangKyPhong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmDangNhap" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAABAQACQEAAAAAAGAAAACAAAACAAAAAAAACAAAAA=</HashCode>
+      <FileName>UI\FrmDangNhap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmDichVu" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACIAABAAAAGAIIAGAAAAAEgQAAAAAQAAAAA=</HashCode>
+      <FileName>UI\FrmDichVu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmHoaDon" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>N4AMAJAAgGAAVBQKEAGArFAGgICAQAgACgEAAQiAAGA=</HashCode>
+      <FileName>UI\FrmHoaDon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmHuongDan" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\FrmHuongDan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmInDangKy" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAAAAAKAAgBBAAICQBABCAQIAACCAwAAAIAAgACA=</HashCode>
+      <FileName>UI\FrmInDangKy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmLoaiPhong" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACAAABACAAGAAIACAACAAEAAAUAAAQAAAAA=</HashCode>
+      <FileName>UI\FrmLoaiPhong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmMain" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMIBAAACAABDJAAYCIgICTAQICoAkRgIATAMwAACA=</HashCode>
+      <FileName>UI\FrmMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmNhanVien" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hgBAhBAAACAAkAAACAGoRAgWAgFAAMAgAKACAAAAAAE=</HashCode>
+      <FileName>UI\FrmNhanVien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmPhong" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggIEIAAACAkCDAYIAGAiBACAAAAAMAAEBAAAQACAAE=</HashCode>
+      <FileName>UI\FrmPhong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmSinhVien" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>igBQhBEAAKAAEBAAAAWIBgASAwFAgMDgQIiDAQAAAEE=</HashCode>
+      <FileName>UI\FrmSinhVien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmTimKiem" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgABAACABCAEKBAAAAGAAAACQACAAAIgAAjCAQECQAI=</HashCode>
+      <FileName>UI\FrmTimKiem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QLKTX.UI.FrmTongQuan" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAACAAEAAAAAWAAAACAAABAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>UI\FrmTongQuan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="QLKTX.ItemType" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAABAKIAAAAAAAAAAABA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="QLKTX.UI.ClickEvent" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\FrmMain.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
