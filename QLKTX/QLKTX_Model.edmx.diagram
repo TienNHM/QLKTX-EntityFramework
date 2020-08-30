@@ -5,8 +5,8 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="05490033bfad42e1bc72d9cc3ec3f2ae" Name="Diagram1">
-        <EntityTypeShape EntityType="QUANLYKTXModel.DANGNHAP" Width="1.5" PointX="8.25" PointY="16.625" IsExpanded="true" />
-        <EntityTypeShape EntityType="QUANLYKTXModel.DICHVU" Width="1.5" PointX="8.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYKTXModel.DANGNHAP" Width="1.5" PointX="5.375" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QUANLYKTXModel.DICHVU" Width="1.5" PointX="10.875" PointY="11.125" IsExpanded="true" />
         <EntityTypeShape EntityType="QUANLYKTXModel.DIENSV" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
         <EntityTypeShape EntityType="QUANLYKTXModel.HOADON" Width="1.5" PointX="8.25" PointY="2.125" IsExpanded="true" />
         <EntityTypeShape EntityType="QUANLYKTXModel.LOAIPHONG" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />

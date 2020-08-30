@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.UI.WebControls;
-using System.Windows.Forms;
 
 namespace QLKTX.BS
 {
@@ -47,7 +40,7 @@ namespace QLKTX.BS
                     default:
                         error = "Lỗi Select.";
                         return null;
-                }    
+                }
             }
             catch (Exception ex)
             {
@@ -57,7 +50,7 @@ namespace QLKTX.BS
         }
         public DataTable Select(ref string error, TableName table, object selectType, string key = "")
         {
-            
+
             try
             {
                 DataTable dt = new DataTable();

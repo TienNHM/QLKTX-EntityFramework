@@ -57,6 +57,7 @@ namespace QLKTX.UI
                 }
             }
             pnContainer.Enabled = false;
+            btnSua.Visible = true;
         }
 
         private void btnMoRong_Click(object sender, EventArgs e)

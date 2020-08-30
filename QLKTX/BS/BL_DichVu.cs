@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Data.Entity;
-using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace QLKTX.BS
 {
@@ -13,7 +8,7 @@ namespace QLKTX.BS
     {
         public bool Insert(string MaDV, string TenDV, int GiaDV, string DonViTinh, ref string error)
         {
-            
+
             try
             {
                 DICHVU dv = new DICHVU()
@@ -37,7 +32,7 @@ namespace QLKTX.BS
 
         public bool Update(string MaDV, string TenDV, int GiaDV, string DonViTinh, ref string error)
         {
-            
+
             try
             {
                 int madv = Convert.ToInt32(MaDV);

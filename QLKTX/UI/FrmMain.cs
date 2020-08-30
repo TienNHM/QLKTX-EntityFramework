@@ -1,23 +1,16 @@
 ﻿using QLKTX.BS;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QLKTX.UI
 {
-    public delegate void ClickEvent();
     public partial class FrmMain : Form
     {
         private bool isExit = false;
         private BL_DangNhap.AccountType _accountType;
         public static BS_layer bS_Layer = new BS_layer();
+        FrmBaoCao baoCao = new FrmBaoCao();
 
         public static string MaNV { get; set; }
 
@@ -33,7 +26,7 @@ namespace QLKTX.UI
             {
                 ctrlDS_NhanVien.Enabled = false;
                 ctrlBaoCao.Enabled = false;
-            }                
+            }
         }
 
         #region Init
@@ -148,7 +141,7 @@ namespace QLKTX.UI
                 isExit = true;
                 FrmDangNhap.exit = true;
                 Application.Exit();
-            }    
+            }
         }
 
         private void Phong()
@@ -171,7 +164,6 @@ namespace QLKTX.UI
 
         private void BaoCao()
         {
-            FrmBaoCao baoCao = new FrmBaoCao();
             baoCao.ShowDialog();
         }
 

@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using QLKTX.UI;
+using System;
 using System.ComponentModel;
 using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Runtime.Remoting.Messaging;
 using System.Windows.Forms;
-using QLKTX.UI;
 
 namespace QLKTX
 {
@@ -20,14 +16,15 @@ namespace QLKTX
         LoaiPhong,
         Unknown
     }
+    public delegate void ClickEvent();
 
     public partial class Item : UserControl
     {
-        public ClickEvent ClickEvent = null;
-
+        public ClickEvent ClickEvent = null; //delegate
         private ItemType type = ItemType.Unknown;
         private string strKey = "";
 
+        #region Constructors
         public Item(ClickEvent click)
         {
             InitializeComponent();
@@ -48,6 +45,7 @@ namespace QLKTX
             this.ClickEvent = ShowInfo;
             strKey = key;
         }
+        #endregion
 
         private void ShowInfo()
         {
@@ -67,7 +65,7 @@ namespace QLKTX
                     FrmDichVu dichVu = new FrmDichVu(this.strKey);
                     dichVu.ShowDialog();
                     break;
-            }    
+            }
         }
 
         private void EventClick()
@@ -91,5 +89,11 @@ namespace QLKTX
         {
             btnTitle.BackColor = Color.Transparent;
         }
+
+        [Category("Button"), Description("")]
+        public string Title { get => this.btnTitle.Text; set => this.btnTitle.Text = value; }
+
+        [Category("PictureBox"), Description("")]
+        public Image ImageItem { get => this.picItem.BackgroundImage; set => this.picItem.BackgroundImage = value; }
     }
 }

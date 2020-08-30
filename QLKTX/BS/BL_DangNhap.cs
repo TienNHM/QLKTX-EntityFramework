@@ -19,17 +19,16 @@ namespace QLKTX.BS
             Admin,
             Employee,
         }
-
+        QUANLYKTXEntities entities = new QUANLYKTXEntities();
         public bool Select(string TenDN, string MatKhau, ref string MaNV, ref AccountType accountType, ref string error)
         {
-
-            QUANLYKTXEntities entities = new QUANLYKTXEntities();
             try
             {
                 var q = (from user in entities.DANGNHAPs
                          where user.TenDN == TenDN && user.MatKhau == MatKhau
                          select user).SingleOrDefault();
-                
+
+
                 if (q != null)
                 {
                     MaNV = q.MaNV;

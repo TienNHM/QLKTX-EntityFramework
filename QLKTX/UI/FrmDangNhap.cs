@@ -15,7 +15,8 @@ namespace QLKTX.UI
     {
         public static bool exit = false;
         private string error = "";
-
+        BL_DangNhap dangNhap = new BL_DangNhap();
+        BL_DangNhap.AccountType accountType = BL_DangNhap.AccountType.Employee;
         public FrmDangNhap()
         {
             InitializeComponent();
@@ -23,14 +24,13 @@ namespace QLKTX.UI
 
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-            BL_DangNhap dangNhap = new BL_DangNhap();
             string MaNV = "";
-            BL_DangNhap.AccountType accountType = BL_DangNhap.AccountType.Employee;
             bool result = dangNhap.Select(txtUserName.Text.Trim(), txtPassword.Text.Trim(), ref MaNV, ref accountType, ref error);
+
             if (result)
             {
-                this.Hide();
                 FrmMain main = new FrmMain(MaNV, accountType);
+                this.Hide();
                 main.ShowDialog();
                 if (exit == false)
                 {
@@ -46,7 +46,7 @@ namespace QLKTX.UI
                 txtUserName.Clear();
                 txtPassword.Clear();
                 txtUserName.Focus();
-            }
+            }    
         }
     }
 }

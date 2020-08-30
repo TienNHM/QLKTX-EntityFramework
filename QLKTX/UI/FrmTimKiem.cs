@@ -1,12 +1,6 @@
 ﻿using QLKTX.BS;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace QLKTX.UI
@@ -128,28 +122,28 @@ namespace QLKTX.UI
             {
                 searchType = SearchType.SinhVien;
                 cmbMucTimKiem.Items.AddRange(EnumConst.SearchSinhVien);
-            }   
+            }
             else if (btn.Name == "btnPhieuDK")
             {
                 searchType = SearchType.PhieuDK;
                 cmbMucTimKiem.Items.AddRange(EnumConst.SearchPhieuDK);
-            }   
+            }
             else if (btn.Name == "btnPhong")
             {
                 searchType = SearchType.Phong;
                 cmbMucTimKiem.Items.AddRange(EnumConst.SearchPhong);
-            }   
+            }
             else if (btn.Name == "btnHoaDon")
             {
                 searchType = SearchType.HoaDon;
                 cmbMucTimKiem.Items.AddRange(EnumConst.SearchHoaDon);
-            }    
+            }
         }
 
         private void txtKey_TextChanged(object sender, EventArgs e)
         {
-            if (txtKey.Text.Length > 3) 
-            btnSearch_Click(sender, e);
+            if (txtKey.Text.Length > 3)
+                btnSearch_Click(sender, e);
         }
 
         private void cmbMucTimKiem_SelectedIndexChanged(object sender, EventArgs e)
@@ -159,7 +153,7 @@ namespace QLKTX.UI
             {
                 txtKey.Visible = false;
                 pnKey.Visible = true;
-            } 
+            }
             else
             {
                 txtKey.Visible = true;

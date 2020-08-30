@@ -63,7 +63,9 @@
     <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.1016.290\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -143,8 +145,10 @@
     <Compile Include="QUANLYKTXDataSet.cs">
       <DependentUpon>QUANLYKTXDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="QUANLYKTXDataSet.designer.cs">
-      <DependentUpon>QUANLYKTXDataSet.cs</DependentUpon>
+    <Compile Include="QUANLYKTXDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QUANLYKTXDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="SDDV.cs">
       <DependentUpon>QLKTX_Model.tt</DependentUpon>
@@ -155,8 +159,12 @@
     <Compile Include="sysdiagram.cs">
       <DependentUpon>QLKTX_Model.tt</DependentUpon>
     </Compile>
-    <Compile Include="UI\FrmBaoCao.cs" />
-    <Compile Include="UI\FrmBaoCao.Designer.cs" />
+    <Compile Include="UI\FrmBaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmBaoCao.designer.cs">
+      <DependentUpon>FrmBaoCao.cs</DependentUpon>
+    </Compile>
     <Compile Include="UI\FrmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -252,7 +260,9 @@
     <EmbeddedResource Include="Reports\ReportSDDV_KTX.rdlc" />
     <EmbeddedResource Include="Reports\ReportSDDV_Phong.rdlc" />
     <EmbeddedResource Include="Reports\ReportSinhVien.rdlc" />
-    <EmbeddedResource Include="UI\FrmBaoCao.resx" />
+    <EmbeddedResource Include="UI\FrmBaoCao.resx">
+      <DependentUpon>FrmBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UI\FrmDangNhap.resx">
       <DependentUpon>FrmDangNhap.cs</DependentUpon>
     </EmbeddedResource>
